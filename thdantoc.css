@@ -7,13 +7,19 @@
 .container {
     background-color: #000000;
     /* background-color: rgb(206, 164, 164); */
+    width: 1440px;
+    margin: auto;
+    text-align: center;
+}
+
+.main-content {
     width: 1400px;
     margin: auto;
 }
 
-/* .main-content{
-    width: 980px;
-} */
+.textgocnhin p {
+
+}
 
 /* 
 .topnav {
@@ -91,7 +97,8 @@
     display: grid;
     grid-template-columns: 40% 60%;
 }
-.mong{
+
+.mong {
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -288,8 +295,10 @@ p .p {
 .footer {
     /*     border-top: 10px groove #53ebac; */
     margin-top: 45px;
+    /* margin-left: -20px; */
     padding: 30px 0;
     display: grid;
+    width: 1440px;
     height: 550px;
     background-color: #A9A9A9;
     grid-template-columns: 38% 32% 30%;
@@ -392,7 +401,8 @@ p .p {
     margin-top: 40px;
     margin-left: 35px;
 }
-.gocnhin-mong{
+
+.gocnhin-mong {
     display: grid;
     grid-template-columns: 50% 50%;
 }
